@@ -4,3 +4,4 @@ describe('Visual regression tests', () => {
     cy.matchImageSnapshot();
   });
 });
+
