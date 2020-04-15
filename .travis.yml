@@ -4,8 +4,7 @@ node_js:
   - "node"
 install:       npm install
 script:
-  - npm test
-  - gulp
+  - npm test:e2e
 cache:
   directories:
     - node_modules
