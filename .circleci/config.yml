@@ -27,6 +27,6 @@ jobs:
           name: Running E2E tests with multiple reporters
           command: npm run test:e2e
       - store_artifacts:
-          path: cypress/videos
-      - store_artifacts:
           path: cypress/screenshots
+      - store_artifacts:
+          path: cypress/snapshots
