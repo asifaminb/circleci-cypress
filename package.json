@@ -1,0 +1,36 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "cy:open": "cypress open",
+        "cy:cli": "cypress run",
+        "cy:update-snapshots": "cy:open --env updateSnapshots=true"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-glob": "^1.2.0"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.6.3",
+        "bootstrap": "^4.0.0",
+        "browser-sync": "^2.26.3",
+        "cypress": "^3.1.5",
+        "cypress-image-snapshot": "3.0.0",
+        "express": "^4.16.4",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "3.10.0",
+        "gulp-header": "2.0.5",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.1",
+        "gulp-uglify": "3.0.1",
+        "jquery": "^3.3.1",
+        "jquery.easing": "^1.4.1",
+        "popper.js": "^1.14.6"
+    }
+}
